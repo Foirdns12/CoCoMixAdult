@@ -1,0 +1,457 @@
+[
+    {
+        "fact": {
+            "age": 17,
+            "fnlwgt": 47771,
+            "education-num": 7,
+            "hours-per-week": 20,
+            "workclass": "Private",
+            "education": "11th",
+            "marital-status": "Never-married",
+            "occupation": "Prof-specialty",
+            "relationship": "Own-child",
+            "race": "White",
+            "sex": "Female",
+            "native-country": "United-States"
+        },
+        "factid": "0",
+        "foil": {
+            "age": 17,
+            "fnlwgt": 47771,
+            "education-num": 7,
+            "hours-per-week": 20,
+            "workclass": "Local-gov",
+            "education": "Bachelors",
+            "marital-status": "Married-civ-spouse",
+            "occupation": "Machine-op-inspct",
+            "relationship": "Own-child",
+            "race": "White",
+            "sex": "Female",
+            "native-country": "Canada"
+        },
+        "foilid": "bc6f45fa-a0c3-4ae0-8f3c-874d8ae0689d",
+        "history": {
+            "full_loss": [
+                719.1092281582833,
+                707.559820146115,
+                690.4279744468853,
+                672.6320694183419,
+                670.8409160377898,
+                668.2617581087079,
+                656.1340524897881,
+                653.6825651832208,
+                242.3310234893347,
+                146.25824235201367,
+                140.22444828434237,
+                138.12507241695835,
+                129.6558890465223,
+                127.51262422678707
+            ],
+            "prediction_loss": [
+                144.24978336205567,
+                127.27922061357854,
+                140.0071426749364,
+                118.79393923933998,
+                114.55129855222071,
+                110.30865786510142,
+                110.30865786510142,
+                110.30865786510142,
+                135.76450198781714,
+                131.52186130069785,
+                123.03657992645927,
+                114.55129855222071,
+                106.06601717798213,
+                110.30865786510142
+            ],
+            "distance_loss": [
+                574.8594447962275,
+                580.2805995325365,
+                550.4208317719489,
+                553.8381301790018,
+                556.2896174855691,
+                557.9531002436065,
+                545.8253946246867,
+                543.3739073181194,
+                106.56652150151757,
+                14.736381051315824,
+                17.187868357883097,
+                23.573773864737632,
+                23.589871868540182,
+                17.203966361685648
+            ],
+            "density_loss": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "predicted_class": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "predicted_class_confidence": [
+                0.85,
+                0.75,
+                0.825,
+                0.7,
+                0.675,
+                0.65,
+                0.65,
+                0.65,
+                0.8,
+                0.775,
+                0.725,
+                0.675,
+                0.625,
+                0.65
+            ],
+            "target_confidence": [
+                0.15,
+                0.25,
+                0.175,
+                0.3,
+                0.325,
+                0.35,
+                0.35,
+                0.35,
+                0.2,
+                0.225,
+                0.275,
+                0.325,
+                0.375,
+                0.35
+            ],
+            "prediction": [
+                [
+                    0.85,
+                    0.15
+                ],
+                [
+                    0.75,
+                    0.25
+                ],
+                [
+                    0.825,
+                    0.175
+                ],
+                [
+                    0.7,
+                    0.3
+                ],
+                [
+                    0.675,
+                    0.325
+                ],
+                [
+                    0.65,
+                    0.35
+                ],
+                [
+                    0.65,
+                    0.35
+                ],
+                [
+                    0.65,
+                    0.35
+                ],
+                [
+                    0.8,
+                    0.2
+                ],
+                [
+                    0.775,
+                    0.225
+                ],
+                [
+                    0.725,
+                    0.275
+                ],
+                [
+                    0.675,
+                    0.325
+                ],
+                [
+                    0.625,
+                    0.375
+                ],
+                [
+                    0.65,
+                    0.35
+                ]
+            ],
+            "step": [
+                -1,
+                1,
+                2,
+                3,
+                10,
+                13,
+                16,
+                35,
+                39,
+                40,
+                41,
+                123,
+                398,
+                401
+            ],
+            "loss": [
+                719.1092281582833,
+                707.559820146115,
+                690.4279744468853,
+                672.6320694183419,
+                670.8409160377898,
+                668.2617581087079,
+                656.1340524897881,
+                653.6825651832208,
+                242.3310234893347,
+                146.25824235201367,
+                140.22444828434237,
+                138.12507241695835,
+                129.6558890465223,
+                127.51262422678707
+            ],
+            "value": [
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Wife",
+                    "White",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Wife",
+                    "Other",
+                    "Female",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Craft-repair",
+                    "Wife",
+                    "Other",
+                    "Female",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Craft-repair",
+                    "Wife",
+                    "Other",
+                    "Female",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Craft-repair",
+                    "Wife",
+                    "Other",
+                    "Female",
+                    "Germany"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Wife",
+                    "Other",
+                    "Female",
+                    "Germany"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Wife",
+                    "White",
+                    "Female",
+                    "Germany"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Wife",
+                    "White",
+                    "Female",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Husband",
+                    "White",
+                    "Female",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Own-child",
+                    "White",
+                    "Female",
+                    "United-States"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Own-child",
+                    "White",
+                    "Female",
+                    "Germany"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Own-child",
+                    "Black",
+                    "Female",
+                    "Germany"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Own-child",
+                    "Black",
+                    "Female",
+                    "Canada"
+                ],
+                [
+                    17,
+                    47771,
+                    7,
+                    20,
+                    "Local-gov",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Machine-op-inspct",
+                    "Own-child",
+                    "White",
+                    "Female",
+                    "Canada"
+                ]
+            ],
+            "pdf": [
+                1.5117355213723483e-17,
+                9.804240727632584e-18,
+                9.804348564283659e-18,
+                9.338559365509005e-19,
+                5.797103776598129e-19,
+                5.797040592629469e-19,
+                2.1545711518083806e-18,
+                3.4685659537200346e-18,
+                3.4677365333819534e-18,
+                3.2133403113028106e-17,
+                1.996075716124387e-17,
+                5.2558077181059675e-18,
+                5.2558077181059606e-18,
+                1.9960757161243838e-17
+            ]
+        },
+        "conf": "{\"lambda_\": 120.0, \"mu\": 1, \"alpha\": 0, \"beta\": 0.5, \"budget\": 1000, \"densitycut\": 8, \"densityaddloss\": 1.5, \"densityscaler\": 0.05}",
+        "predclass": 0,
+        "fact_cl": 0,
+        "foilprice": 0,
+        "factprice": 0
+    }
+]

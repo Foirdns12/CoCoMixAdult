@@ -1,5 +1,0 @@
-$ mkdir CoCoMixAdult // Create a directory
-$ cd CoCoMixAdult/ // Navigate to the director
-$ git init //Initialize an empty database
-$ echo hello > categorical-explanations
-$ git status
