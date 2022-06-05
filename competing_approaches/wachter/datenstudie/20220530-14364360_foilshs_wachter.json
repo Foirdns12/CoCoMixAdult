@@ -1,0 +1,177 @@
+[
+    {
+        "fact": {
+            "age": 34,
+            "fnlwgt": 263307,
+            "education-num": 13,
+            "hours-per-week": 45,
+            "workclass": "Private",
+            "education": "Bachelors",
+            "marital-status": "Never-married",
+            "occupation": "Sales",
+            "relationship": "Unmarried",
+            "race": "Black",
+            "sex": "Male",
+            "native-country": "United-States"
+        },
+        "factid": "0",
+        "foil": {
+            "age": 34,
+            "fnlwgt": 263307,
+            "education-num": 13,
+            "hours-per-week": 45,
+            "workclass": "Private",
+            "education": "Bachelors",
+            "marital-status": "Married-civ-spouse",
+            "occupation": "Tech-support",
+            "relationship": "Unmarried",
+            "race": "Black",
+            "sex": "Male",
+            "native-country": "United-States"
+        },
+        "foilid": "4c2b7fa6-a663-4958-847f-8c2728546e01",
+        "history": {
+            "full_loss": [
+                194.39696961967,
+                156.21320343559643,
+                139.43376618407356,
+                126.89696961966999
+            ],
+            "prediction_loss": [
+                59.39696961966999,
+                21.213203435596427,
+                38.18376618407356,
+                59.39696961966999
+            ],
+            "distance_loss": [
+                135.0,
+                135.0,
+                101.25,
+                67.5
+            ],
+            "density_loss": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "predicted_class": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "predicted_class_confidence": [
+                0.65,
+                0.875,
+                0.775,
+                0.65
+            ],
+            "target_confidence": [
+                0.65,
+                0.875,
+                0.775,
+                0.65
+            ],
+            "prediction": [
+                [
+                    0.35,
+                    0.65
+                ],
+                [
+                    0.125,
+                    0.875
+                ],
+                [
+                    0.225,
+                    0.775
+                ],
+                [
+                    0.35,
+                    0.65
+                ]
+            ],
+            "step": [
+                -1,
+                1,
+                10,
+                24
+            ],
+            "loss": [
+                194.39696961967,
+                156.21320343559643,
+                139.43376618407356,
+                126.89696961966999
+            ],
+            "value": [
+                [
+                    34,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Wife",
+                    "White",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    34,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Husband",
+                    "White",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    34,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Husband",
+                    "Black",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    34,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Unmarried",
+                    "Black",
+                    "Male",
+                    "United-States"
+                ]
+            ],
+            "pdf": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "conf": "{\"lambda_\": 120.0, \"mu\": 2.25, \"alpha\": 0.0, \"beta\": 0.625, \"budget\": 1000, \"densitycut\": 8, \"densityaddloss\": 1.5, \"densityscaler\": 0.05}",
+        "predclass": 1,
+        "fact_cl": 0,
+        "foilprice": 0,
+        "factprice": 0
+    }
+]

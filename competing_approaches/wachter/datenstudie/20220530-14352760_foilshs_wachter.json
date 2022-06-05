@@ -1,0 +1,205 @@
+[
+    {
+        "fact": {
+            "age": 34,
+            "fnlwgt": 263307,
+            "education-num": 13,
+            "hours-per-week": 45,
+            "workclass": "Private",
+            "education": "Bachelors",
+            "marital-status": "Never-married",
+            "occupation": "Sales",
+            "relationship": "Unmarried",
+            "race": "Black",
+            "sex": "Male",
+            "native-country": "United-States"
+        },
+        "factid": "0",
+        "foil": {
+            "age": 34,
+            "fnlwgt": 263307,
+            "education-num": 13,
+            "hours-per-week": 45,
+            "workclass": "Private",
+            "education": "Bachelors",
+            "marital-status": "Married-civ-spouse",
+            "occupation": "Tech-support",
+            "relationship": "Unmarried",
+            "race": "Black",
+            "sex": "Male",
+            "native-country": "United-States"
+        },
+        "foilid": "4784334a-ba58-47a7-afeb-30731ff3b479",
+        "history": {
+            "full_loss": [
+                194.39696961967,
+                190.3793289325507,
+                165.11461030678927,
+                127.12196961967,
+                126.89696961966999
+            ],
+            "prediction_loss": [
+                59.39696961966999,
+                55.154328932550705,
+                63.63961030678927,
+                59.39696961966999,
+                59.39696961966999
+            ],
+            "distance_loss": [
+                135.0,
+                135.225,
+                101.47500000000001,
+                67.72500000000001,
+                67.5
+            ],
+            "density_loss": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "predicted_class": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "predicted_class_confidence": [
+                0.65,
+                0.675,
+                0.625,
+                0.65,
+                0.65
+            ],
+            "target_confidence": [
+                0.65,
+                0.675,
+                0.625,
+                0.65,
+                0.65
+            ],
+            "prediction": [
+                [
+                    0.35,
+                    0.65
+                ],
+                [
+                    0.325,
+                    0.675
+                ],
+                [
+                    0.375,
+                    0.625
+                ],
+                [
+                    0.35,
+                    0.65
+                ],
+                [
+                    0.35,
+                    0.65
+                ]
+            ],
+            "step": [
+                -1,
+                11,
+                25,
+                45,
+                52
+            ],
+            "loss": [
+                194.39696961967,
+                190.3793289325507,
+                165.11461030678927,
+                127.12196961967,
+                126.89696961966999
+            ],
+            "value": [
+                [
+                    34,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Wife",
+                    "White",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    35,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Wife",
+                    "White",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    35,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Unmarried",
+                    "White",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    35,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Unmarried",
+                    "Black",
+                    "Male",
+                    "United-States"
+                ],
+                [
+                    34,
+                    263307,
+                    13,
+                    45,
+                    "Private",
+                    "Bachelors",
+                    "Married-civ-spouse",
+                    "Tech-support",
+                    "Unmarried",
+                    "Black",
+                    "Male",
+                    "United-States"
+                ]
+            ],
+            "pdf": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "conf": "{\"lambda_\": 120.0, \"mu\": 2.25, \"alpha\": 0.0, \"beta\": 0.625, \"budget\": 1000, \"densitycut\": 8, \"densityaddloss\": 1.5, \"densityscaler\": 0.05}",
+        "predclass": 1,
+        "fact_cl": 0,
+        "foilprice": 0,
+        "factprice": 0
+    }
+]
