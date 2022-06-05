@@ -1,0 +1,3774 @@
+[
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1996.0
+            ],
+            "obj_livingSpace": [
+                162.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                996.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Schleswig_Holstein"
+            ],
+            "geo_krs": [
+                "nordfriesland_kreis"
+            ]
+        },
+        "factid": "13466412e020f9f44e8a37a45ad72c24",
+        "foil": {
+            "obj_yearConstructed": [
+                1957.0
+            ],
+            "obj_livingSpace": [
+                161.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                1027.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use_after_refurbishment"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "floor_heating"
+            ],
+            "obj_regio1": [
+                "Schleswig_Holstein"
+            ],
+            "geo_krs": [
+                "wismar"
+            ]
+        },
+        "foilid": "3b17c276-6f3c-4a0a-b4ad-0896ca3869ac",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 425.0,
+        "factprice": 794.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2008.0
+            ],
+            "obj_livingSpace": [
+                140.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                818.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "rhein_lahn_kreis"
+            ]
+        },
+        "factid": "6a9bf444863b69e3d5c6f20b7c1fbf1b",
+        "foil": {
+            "obj_yearConstructed": [
+                2005.0
+            ],
+            "obj_livingSpace": [
+                143.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                647.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "end_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "floor_heating"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "coburg"
+            ]
+        },
+        "foilid": "7c01e659-15a3-423a-85b2-00ecb9166458",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 3,
+        "fact_cl": 1,
+        "foilprice": 239.0,
+        "factprice": 124.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1900.0
+            ],
+            "obj_livingSpace": [
+                250.0
+            ],
+            "obj_noRooms": [
+                9.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                310.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "reutlingen_kreis"
+            ]
+        },
+        "factid": "343644f6f063af529efd467b9d913ed4",
+        "foil": {
+            "obj_yearConstructed": [
+                1909.0
+            ],
+            "obj_livingSpace": [
+                255.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                335.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "combined_heat_and_power_plant"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "m\u00fcnchen"
+            ]
+        },
+        "foilid": "073f66ec-a450-4835-99b1-e27235df0642",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 7,
+        "fact_cl": 5,
+        "foilprice": 2597.0,
+        "factprice": 664.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2020.0
+            ],
+            "obj_livingSpace": [
+                160.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                940.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "rhein_sieg_kreis"
+            ]
+        },
+        "factid": "94408a247e351d4b8dd22e1d5bc6a6eb",
+        "foil": {
+            "obj_yearConstructed": [
+                2023.0
+            ],
+            "obj_livingSpace": [
+                193.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                993.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "fully_renovated"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "wood_pellet_heating"
+            ],
+            "obj_regio1": [
+                "Saarland"
+            ],
+            "geo_krs": [
+                "mainz"
+            ]
+        },
+        "foilid": "eff2166c-f721-4dfe-9ded-5494bf165516",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 823.0,
+        "factprice": 440.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2021.0
+            ],
+            "obj_livingSpace": [
+                414.0
+            ],
+            "obj_noRooms": [
+                11.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                352.0
+            ],
+            "obj_noParkSpaces": [
+                6.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "luxury"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "bergstra\u00dfe_kreis"
+            ]
+        },
+        "factid": "6c1a2480dfdd9ed8f010d20bb7dc4b01",
+        "foil": {
+            "obj_yearConstructed": [
+                2021.0
+            ],
+            "obj_livingSpace": [
+                401.0
+            ],
+            "obj_noRooms": [
+                9.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                346.0
+            ],
+            "obj_noParkSpaces": [
+                5.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "negotiable"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Saarland"
+            ],
+            "geo_krs": [
+                "neuwied_kreis"
+            ]
+        },
+        "foilid": "dea9559e-f9d8-4f13-ad3a-885eb41f8959",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 458.0,
+        "factprice": 846.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2020.0
+            ],
+            "obj_livingSpace": [
+                142.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                1.0
+            ],
+            "obj_lotArea": [
+                1006.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "bungalow"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "siegen_wittgenstein_kreis"
+            ]
+        },
+        "factid": "fcbaddd63f3eabdc4b89aceadf0054f4",
+        "foil": {
+            "obj_yearConstructed": [
+                2005.0
+            ],
+            "obj_livingSpace": [
+                134.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                1.0
+            ],
+            "obj_lotArea": [
+                1039.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "castle_manor_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "wolfsburg"
+            ]
+        },
+        "foilid": "067f9b46-02a7-4595-8b03-cbedfaafad37",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 493.0,
+        "factprice": 172.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2021.0
+            ],
+            "obj_livingSpace": [
+                157.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                250.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "luxury"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Bayern"
+            ],
+            "geo_krs": [
+                "pfaffenhofen_an_der_ilm_kreis"
+            ]
+        },
+        "factid": "2fdb3cb813924672ede60f052cd4738b",
+        "foil": {
+            "obj_yearConstructed": [
+                1984.0
+            ],
+            "obj_livingSpace": [
+                173.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                299.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "bungalow"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "luxury"
+            ],
+            "obj_heatingType": [
+                "combined_heat_and_power_plant"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "m\u00fcnchen_kreis"
+            ]
+        },
+        "foilid": "9b22a6de-5912-49bb-b976-ecab4d415587",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 7,
+        "fact_cl": 5,
+        "foilprice": 2791.0,
+        "factprice": 702.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1976.0
+            ],
+            "obj_livingSpace": [
+                100.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                420.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "enzkreis"
+            ]
+        },
+        "factid": "11eab2b9e5b2272d64538993b2761003",
+        "foil": {
+            "obj_yearConstructed": [
+                1977.0
+            ],
+            "obj_livingSpace": [
+                105.0
+            ],
+            "obj_noRooms": [
+                2.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                439.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "floor_heating"
+            ],
+            "obj_regio1": [
+                "Brandenburg"
+            ],
+            "geo_krs": [
+                "garmisch_partenkirchen_kreis"
+            ]
+        },
+        "foilid": "b16c5b0b-23fc-4abe-bcaf-0e1d6843c775",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 5,
+        "fact_cl": 3,
+        "foilprice": 718.0,
+        "factprice": 285.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1983.0
+            ],
+            "obj_livingSpace": [
+                270.0
+            ],
+            "obj_noRooms": [
+                8.0
+            ],
+            "obj_numberOfFloors": [
+                1.0
+            ],
+            "obj_lotArea": [
+                1106.0
+            ],
+            "obj_noParkSpaces": [
+                4.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "rhein_erft_kreis"
+            ]
+        },
+        "factid": "be1e700ffaec7661aaacbcc2aab29220",
+        "foil": {
+            "obj_yearConstructed": [
+                1985.0
+            ],
+            "obj_livingSpace": [
+                295.0
+            ],
+            "obj_noRooms": [
+                10.0
+            ],
+            "obj_numberOfFloors": [
+                1.0
+            ],
+            "obj_lotArea": [
+                978.0
+            ],
+            "obj_noParkSpaces": [
+                5.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "biberach_kreis"
+            ]
+        },
+        "foilid": "a1ea7dda-2b40-4565-a091-ba23b7380649",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 435.0,
+        "factprice": 792.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1934.0
+            ],
+            "obj_livingSpace": [
+                140.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                309.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "aachen"
+            ]
+        },
+        "factid": "9a0f0edf997d6261b0dc76625324acfa",
+        "foil": {
+            "obj_yearConstructed": [
+                1936.0
+            ],
+            "obj_livingSpace": [
+                162.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                406.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "self_contained_central_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "stuttgart"
+            ]
+        },
+        "foilid": "1db00f18-c993-4f2b-8e60-f2bbb8da2b9f",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 792.0,
+        "factprice": 487.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2019.0
+            ],
+            "obj_livingSpace": [
+                213.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                4.0
+            ],
+            "obj_lotArea": [
+                175.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "luxury"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "offenbach_am_main"
+            ]
+        },
+        "factid": "13c268fd938a60a413745bc900bfe9bf",
+        "foil": {
+            "obj_yearConstructed": [
+                2014.0
+            ],
+            "obj_livingSpace": [
+                189.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                4.0
+            ],
+            "obj_lotArea": [
+                138.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "farmhouse"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "oil_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "m\u00fcnster"
+            ]
+        },
+        "foilid": "ae3d9c4e-30eb-4090-ab97-5af13a7960b3",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 465.0,
+        "factprice": 812.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2009.0
+            ],
+            "obj_livingSpace": [
+                240.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                640.0
+            ],
+            "obj_noParkSpaces": [
+                4.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "refurbished"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "kleve_kreis"
+            ]
+        },
+        "factid": "7eaf6cd9c85f6f50cbf8194421889572",
+        "foil": {
+            "obj_yearConstructed": [
+                2021.0
+            ],
+            "obj_livingSpace": [
+                227.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                824.0
+            ],
+            "obj_noParkSpaces": [
+                5.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "refurbished"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Sachsen_Anhalt"
+            ],
+            "geo_krs": [
+                "b\u00f6blingen_kreis"
+            ]
+        },
+        "foilid": "099f4121-226a-423a-a4a8-f12a9c7faaad",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 872.0,
+        "factprice": 464.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1999.0
+            ],
+            "obj_livingSpace": [
+                190.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                490.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "mint_condition"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Niedersachsen"
+            ],
+            "geo_krs": [
+                "oldenburg_kreis"
+            ]
+        },
+        "factid": "61a1d594125b04ae8e50ad549a07f7b2",
+        "foil": {
+            "obj_yearConstructed": [
+                1993.0
+            ],
+            "obj_livingSpace": [
+                192.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                668.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "castle_manor_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "mint_condition"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "district_heating"
+            ],
+            "obj_regio1": [
+                "Niedersachsen"
+            ],
+            "geo_krs": [
+                "wiesbaden"
+            ]
+        },
+        "foilid": "f6079576-ff76-4243-91fa-e7249255b69d",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 851.0,
+        "factprice": 470.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2000.0
+            ],
+            "obj_livingSpace": [
+                155.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                219.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "floor_heating"
+            ],
+            "obj_regio1": [
+                "Sachsen_Anhalt"
+            ],
+            "geo_krs": [
+                "anhalt_bitterfeld_kreis"
+            ]
+        },
+        "factid": "747d857933e56b038c25eb18750dc2fd",
+        "foil": {
+            "obj_yearConstructed": [
+                1998.0
+            ],
+            "obj_livingSpace": [
+                164.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                417.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "night_storage_heater"
+            ],
+            "obj_regio1": [
+                "Sachsen_Anhalt"
+            ],
+            "geo_krs": [
+                "ostallg\u00e4u_kreis"
+            ]
+        },
+        "foilid": "1f174c1c-4b4d-4e6e-a3df-5e9a0889714b",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 3,
+        "fact_cl": 1,
+        "foilprice": 268.0,
+        "factprice": 109.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2009.0
+            ],
+            "obj_livingSpace": [
+                100.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                250.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "electric_heating"
+            ],
+            "obj_regio1": [
+                "Mecklenburg_Vorpommern"
+            ],
+            "geo_krs": [
+                "m\u00fcritz_kreis"
+            ]
+        },
+        "factid": "883024382ea437dc591f02fc498fc3b5",
+        "foil": {
+            "obj_yearConstructed": [
+                2018.0
+            ],
+            "obj_livingSpace": [
+                127.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                107.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "luxury"
+            ],
+            "obj_heatingType": [
+                "electric_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "germersheim_kreis"
+            ]
+        },
+        "foilid": "df624e62-00a8-4bb4-b1d5-5966f7bbcbd7",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 3,
+        "fact_cl": 1,
+        "foilprice": 279.0,
+        "factprice": 109.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1847.0
+            ],
+            "obj_livingSpace": [
+                165.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                315.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Niedersachsen"
+            ],
+            "geo_krs": [
+                "salzgitter"
+            ]
+        },
+        "factid": "262169ea019bf6557574c787f0b583a1",
+        "foil": {
+            "obj_yearConstructed": [
+                1861.0
+            ],
+            "obj_livingSpace": [
+                192.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                295.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "farmhouse"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "combined_heat_and_power_plant"
+            ],
+            "obj_regio1": [
+                "Brandenburg"
+            ],
+            "geo_krs": [
+                "bayreuth"
+            ]
+        },
+        "foilid": "5b8e7325-f587-4706-8dca-9e820a1b1b18",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 2,
+        "fact_cl": 0,
+        "foilprice": 162.0,
+        "factprice": 65.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1956.0
+            ],
+            "obj_livingSpace": [
+                364.0
+            ],
+            "obj_noRooms": [
+                16.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                731.0
+            ],
+            "obj_noParkSpaces": [
+                10.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "self_contained_central_heating"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "mainz_bingen_kreis"
+            ]
+        },
+        "factid": "245b29d60072312e75a6685da5bce6a8",
+        "foil": {
+            "obj_yearConstructed": [
+                1957.0
+            ],
+            "obj_livingSpace": [
+                323.0
+            ],
+            "obj_noRooms": [
+                18.0
+            ],
+            "obj_numberOfFloors": [
+                4.0
+            ],
+            "obj_lotArea": [
+                1024.0
+            ],
+            "obj_noParkSpaces": [
+                10.0
+            ],
+            "obj_buildingType": [
+                "end_terrace_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "oil_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "cloppenburg_kreis"
+            ]
+        },
+        "foilid": "58721541-c02e-462d-9967-d3d64ee20b4d",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 444.0,
+        "factprice": 796.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1972.0
+            ],
+            "obj_livingSpace": [
+                165.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                1.0
+            ],
+            "obj_lotArea": [
+                325.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "ortenaukreis"
+            ]
+        },
+        "factid": "c16a6927dd8519899f25d4b70282d54e",
+        "foil": {
+            "obj_yearConstructed": [
+                1957.0
+            ],
+            "obj_livingSpace": [
+                194.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                1.0
+            ],
+            "obj_lotArea": [
+                348.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "main_taunus_kreis"
+            ]
+        },
+        "foilid": "e7fe070e-40ac-4d7f-a06d-0debef50ea64",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 794.0,
+        "factprice": 437.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1978.0
+            ],
+            "obj_livingSpace": [
+                141.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                722.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Brandenburg"
+            ],
+            "geo_krs": [
+                "teltow_fl\u00e4ming_kreis"
+            ]
+        },
+        "factid": "de8d97d1ab412ed1dd47ab43bad9138f",
+        "foil": {
+            "obj_yearConstructed": [
+                1941.0
+            ],
+            "obj_livingSpace": [
+                136.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                786.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "wood_pellet_heating"
+            ],
+            "obj_regio1": [
+                "Brandenburg"
+            ],
+            "geo_krs": [
+                "dresden"
+            ]
+        },
+        "foilid": "84b801c4-8e62-46cf-91cd-0cce55e50c68",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 5,
+        "fact_cl": 3,
+        "foilprice": 630.0,
+        "factprice": 244.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1979.0
+            ],
+            "obj_livingSpace": [
+                150.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                180.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Sachsen_Anhalt"
+            ],
+            "geo_krs": [
+                "altmarkkreis_salzwedel"
+            ]
+        },
+        "factid": "4f8bd369272f613d5dfdcc61fa39b6fa",
+        "foil": {
+            "obj_yearConstructed": [
+                1983.0
+            ],
+            "obj_livingSpace": [
+                186.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                93.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "self_contained_central_heating"
+            ],
+            "obj_regio1": [
+                "Schleswig_Holstein"
+            ],
+            "geo_krs": [
+                "eichst\u00e4tt_kreis"
+            ]
+        },
+        "foilid": "4b97548a-9040-4e64-b755-e98395ac11d7",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 3,
+        "fact_cl": 1,
+        "foilprice": 283.0,
+        "factprice": 102.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1978.0
+            ],
+            "obj_livingSpace": [
+                150.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                890.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Sachsen"
+            ],
+            "geo_krs": [
+                "mittelsachsen_kreis"
+            ]
+        },
+        "factid": "8bcaeb8949cff1da048b4652b21de0af",
+        "foil": {
+            "obj_yearConstructed": [
+                1982.0
+            ],
+            "obj_livingSpace": [
+                156.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                975.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "bungalow"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "fully_renovated"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Brandenburg"
+            ],
+            "geo_krs": [
+                "gelsenkirchen"
+            ]
+        },
+        "foilid": "58e86d61-d153-4bf5-bbb6-8215352a5f9a",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 2,
+        "fact_cl": 0,
+        "foilprice": 168.0,
+        "factprice": 58.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1800.0
+            ],
+            "obj_livingSpace": [
+                105.0
+            ],
+            "obj_noRooms": [
+                2.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                70.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Mecklenburg_Vorpommern"
+            ],
+            "geo_krs": [
+                "g\u00fcstrow_kreis"
+            ]
+        },
+        "factid": "97ed2d6f564ecfae4285bf6832cb13a3",
+        "foil": {
+            "obj_yearConstructed": [
+                1796.0
+            ],
+            "obj_livingSpace": [
+                170.0
+            ],
+            "obj_noRooms": [
+                2.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                140.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "night_storage_heater"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "barnim_kreis"
+            ]
+        },
+        "foilid": "2432f5e0-b9c3-4023-88ab-56112adaa315",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 2,
+        "fact_cl": 0,
+        "foilprice": 164.0,
+        "factprice": 29.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1959.0
+            ],
+            "obj_livingSpace": [
+                140.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                640.0
+            ],
+            "obj_noParkSpaces": [
+                4.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "gas_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "viersen_kreis"
+            ]
+        },
+        "factid": "fb8ce979e1661ce27fb5e5c6cf028caa",
+        "foil": {
+            "obj_yearConstructed": [
+                1952.0
+            ],
+            "obj_livingSpace": [
+                258.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                701.0
+            ],
+            "obj_noParkSpaces": [
+                4.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "combined_heat_and_power_plant"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "heilbronn"
+            ]
+        },
+        "foilid": "30680ca9-58d5-4103-bed9-e306a662099c",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 804.0,
+        "factprice": 405.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1990.0
+            ],
+            "obj_livingSpace": [
+                130.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                300.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Bremen"
+            ],
+            "geo_krs": [
+                "bremen"
+            ]
+        },
+        "factid": "979fe059602e1beff7b234995c2928b6",
+        "foil": {
+            "obj_yearConstructed": [
+                1990.0
+            ],
+            "obj_livingSpace": [
+                144.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                642.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "fully_renovated"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Bremen"
+            ],
+            "geo_krs": [
+                "karlsruhe_kreis"
+            ]
+        },
+        "foilid": "fe6bebe2-881b-432b-8749-95a31ae3979f",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 450.0,
+        "factprice": 168.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1947.0
+            ],
+            "obj_livingSpace": [
+                150.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                201.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "wood_pellet_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "m\u00e4rkischer_kreis"
+            ]
+        },
+        "factid": "96e29ee8102f83609bd11be2f11b2fa3",
+        "foil": {
+            "obj_yearConstructed": [
+                1951.0
+            ],
+            "obj_livingSpace": [
+                135.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                85.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "wood_pellet_heating"
+            ],
+            "obj_regio1": [
+                "Schleswig_Holstein"
+            ],
+            "geo_krs": [
+                "havelland_kreis"
+            ]
+        },
+        "foilid": "acf45c14-7b6c-426e-ac60-9a0ad6cd00be",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 3,
+        "fact_cl": 1,
+        "foilprice": 251.0,
+        "factprice": 129.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1960.0
+            ],
+            "obj_livingSpace": [
+                125.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                451.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "kaiserslautern"
+            ]
+        },
+        "factid": "d4d2978d00ac8070507c17ea22c6fc83",
+        "foil": {
+            "obj_yearConstructed": [
+                1994.0
+            ],
+            "obj_livingSpace": [
+                132.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                382.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "erfurt"
+            ]
+        },
+        "foilid": "99458d79-d34f-47b3-9ce9-f0ea0fafb7b1",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 399.0,
+        "factprice": 160.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1962.0
+            ],
+            "obj_livingSpace": [
+                130.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                516.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "bungalow"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Niedersachsen"
+            ],
+            "geo_krs": [
+                "friesland_kreis"
+            ]
+        },
+        "factid": "b3cc6f62afaad948bdf39bc79ff110d9",
+        "foil": {
+            "obj_yearConstructed": [
+                1941.0
+            ],
+            "obj_livingSpace": [
+                109.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                574.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Th\u00fcringen"
+            ],
+            "geo_krs": [
+                "t\u00fcbingen_kreis"
+            ]
+        },
+        "foilid": "ba9271ff-f95b-4bbe-9bcd-f0c816cb42df",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 2,
+        "fact_cl": 0,
+        "foilprice": 160.0,
+        "factprice": 66.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1965.0
+            ],
+            "obj_livingSpace": [
+                273.0
+            ],
+            "obj_noRooms": [
+                8.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                955.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "oil_heating"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "mainz"
+            ]
+        },
+        "factid": "abcaf3998694d58c67b23fc2859a483f",
+        "foil": {
+            "obj_yearConstructed": [
+                1964.0
+            ],
+            "obj_livingSpace": [
+                263.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                660.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "coburg"
+            ]
+        },
+        "foilid": "39a7651e-bd77-477c-bae4-deefc0001616",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 472.0,
+        "factprice": 886.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1812.0
+            ],
+            "obj_livingSpace": [
+                70.0
+            ],
+            "obj_noRooms": [
+                3.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                1197.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Th\u00fcringen"
+            ],
+            "geo_krs": [
+                "wartburgkreis"
+            ]
+        },
+        "factid": "8627a80a9972860560e249927bea6328",
+        "foil": {
+            "obj_yearConstructed": [
+                1821.0
+            ],
+            "obj_livingSpace": [
+                31.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                4.0
+            ],
+            "obj_lotArea": [
+                985.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "villa"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Th\u00fcringen"
+            ],
+            "geo_krs": [
+                "neum\u00fcnster"
+            ]
+        },
+        "foilid": "8568008a-08b7-4dcb-a414-cd12a3801f99",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 2,
+        "fact_cl": 0,
+        "foilprice": 170.0,
+        "factprice": 42.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1960.0
+            ],
+            "obj_livingSpace": [
+                125.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                680.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Niedersachsen"
+            ],
+            "geo_krs": [
+                "hameln_pyrmont_kreis"
+            ]
+        },
+        "factid": "1499e800623ab1a67a5753eb80b06184",
+        "foil": {
+            "obj_yearConstructed": [
+                1953.0
+            ],
+            "obj_livingSpace": [
+                93.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                624.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "wood_pellet_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "celle_kreis"
+            ]
+        },
+        "foilid": "bd20e29a-322f-4fea-bf8e-7ae32fa216d5",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 2,
+        "fact_cl": 0,
+        "foilprice": 167.0,
+        "factprice": 53.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1870.0
+            ],
+            "obj_livingSpace": [
+                248.0
+            ],
+            "obj_noRooms": [
+                8.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                1523.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "waldshut_kreis"
+            ]
+        },
+        "factid": "b7f4af43905f8e5bbcd00c8da37a13f3",
+        "foil": {
+            "obj_yearConstructed": [
+                1860.0
+            ],
+            "obj_livingSpace": [
+                249.0
+            ],
+            "obj_noRooms": [
+                10.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                1475.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "simple"
+            ],
+            "obj_heatingType": [
+                "night_storage_heater"
+            ],
+            "obj_regio1": [
+                "Sachsen"
+            ],
+            "geo_krs": [
+                "rosenheim_kreis"
+            ]
+        },
+        "foilid": "c8715e0a-93a7-40a6-b48d-0efbf8fe3f0c",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 7,
+        "fact_cl": 5,
+        "foilprice": 2211.0,
+        "factprice": 677.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2020.0
+            ],
+            "obj_livingSpace": [
+                155.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                160.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "mid_terrace_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "mint_condition"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "main_tauber_kreis"
+            ]
+        },
+        "factid": "c2cb6b48d46d162a436f7e359b764654",
+        "foil": {
+            "obj_yearConstructed": [
+                2014.0
+            ],
+            "obj_livingSpace": [
+                156.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                127.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "first_time_use_after_refurbishment"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "oil_heating"
+            ],
+            "obj_regio1": [
+                "Sachsen_Anhalt"
+            ],
+            "geo_krs": [
+                "stuttgart"
+            ]
+        },
+        "foilid": "7a2b5976-bdc9-4782-a3ba-a4773f6cd243",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 792.0,
+        "factprice": 383.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1972.0
+            ],
+            "obj_livingSpace": [
+                290.0
+            ],
+            "obj_noRooms": [
+                12.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                352.0
+            ],
+            "obj_noParkSpaces": [
+                5.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "cochem_zell_kreis"
+            ]
+        },
+        "factid": "a7dd0e9ff601cb6acba005e111f78d81",
+        "foil": {
+            "obj_yearConstructed": [
+                1949.0
+            ],
+            "obj_livingSpace": [
+                331.0
+            ],
+            "obj_noRooms": [
+                11.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                323.0
+            ],
+            "obj_noParkSpaces": [
+                5.0
+            ],
+            "obj_buildingType": [
+                "castle_manor_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "rhein_hunsr\u00fcck_kreis"
+            ]
+        },
+        "foilid": "cb56bc87-0ea1-4d76-8240-f314d99df080",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 462.0,
+        "factprice": 166.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1978.0
+            ],
+            "obj_livingSpace": [
+                144.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                406.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "no_information"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "warendorf_kreis"
+            ]
+        },
+        "factid": "d8ad168606be789bcbb74a05395ce9ec",
+        "foil": {
+            "obj_yearConstructed": [
+                1994.0
+            ],
+            "obj_livingSpace": [
+                182.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                297.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "no_information"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Mecklenburg_Vorpommern"
+            ],
+            "geo_krs": [
+                "rheinisch_bergischer_kreis"
+            ]
+        },
+        "foilid": "2c070df2-d01e-4e37-9dc2-2696b61626f6",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 441.0,
+        "factprice": 173.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1927.0
+            ],
+            "obj_livingSpace": [
+                347.0
+            ],
+            "obj_noRooms": [
+                16.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                1300.0
+            ],
+            "obj_noParkSpaces": [
+                8.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "modernized"
+            ],
+            "obj_interiorQual": [
+                "sophisticated"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Sachsen"
+            ],
+            "geo_krs": [
+                "bautzen_kreis"
+            ]
+        },
+        "factid": "9ddc4e3289090d270a7def167af5389d",
+        "foil": {
+            "obj_yearConstructed": [
+                1900.0
+            ],
+            "obj_livingSpace": [
+                348.0
+            ],
+            "obj_noRooms": [
+                16.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                937.0
+            ],
+            "obj_noParkSpaces": [
+                8.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "luxury"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Sachsen"
+            ],
+            "geo_krs": [
+                "trier"
+            ]
+        },
+        "foilid": "78d514d8-f3a0-401f-afdf-ff4c299f1be9",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 843.0,
+        "factprice": 431.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1995.0
+            ],
+            "obj_livingSpace": [
+                147.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                158.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "no_information"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "refurbished"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "self_contained_central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "ostalbkreis"
+            ]
+        },
+        "factid": "769fae66ce0250ef5a0b756cb2b3e969",
+        "foil": {
+            "obj_yearConstructed": [
+                1985.0
+            ],
+            "obj_livingSpace": [
+                167.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                262.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "villa"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "refurbished"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "gas_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "neuburg_schrobenhausen_kreis"
+            ]
+        },
+        "foilid": "078710a0-b3d4-4381-98b5-0e77a79bfcb8",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 5,
+        "fact_cl": 3,
+        "foilprice": 630.0,
+        "factprice": 247.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1870.0
+            ],
+            "obj_livingSpace": [
+                94.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                544.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "need_of_renovation"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Nordrhein_Westfalen"
+            ],
+            "geo_krs": [
+                "herne"
+            ]
+        },
+        "factid": "625ff087b30a4239ded9d07f9b5270e8",
+        "foil": {
+            "obj_yearConstructed": [
+                1878.0
+            ],
+            "obj_livingSpace": [
+                49.0
+            ],
+            "obj_noRooms": [
+                3.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                482.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "first_time_use"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "oberallg\u00e4u_kreis"
+            ]
+        },
+        "foilid": "796df183-35d3-4136-8a59-dd3219eb6ab0",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 466.0,
+        "factprice": 156.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1938.0
+            ],
+            "obj_livingSpace": [
+                120.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                800.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Bayern"
+            ],
+            "geo_krs": [
+                "rosenheim"
+            ]
+        },
+        "factid": "23191ee679bba715c5b6555814c7c661",
+        "foil": {
+            "obj_yearConstructed": [
+                1934.0
+            ],
+            "obj_livingSpace": [
+                130.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                1350.0
+            ],
+            "obj_noParkSpaces": [
+                3.0
+            ],
+            "obj_buildingType": [
+                "castle_manor_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "mint_condition"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Bayern"
+            ],
+            "geo_krs": [
+                "amberg_sulzbach_kreis"
+            ]
+        },
+        "foilid": "655bcff7-f671-42dd-897f-e7d6a26218ae",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 458.0,
+        "factprice": 793.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                2021.0
+            ],
+            "obj_livingSpace": [
+                143.0
+            ],
+            "obj_noRooms": [
+                4.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                429.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "mint_condition"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Bayern"
+            ],
+            "geo_krs": [
+                "rosenheim_kreis"
+            ]
+        },
+        "factid": "4bbfa046b609561086f162dbc6016855",
+        "foil": {
+            "obj_yearConstructed": [
+                2015.0
+            ],
+            "obj_livingSpace": [
+                167.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                152.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "single_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "first_time_use_after_refurbishment"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "heat_pump"
+            ],
+            "obj_regio1": [
+                "Rheinland_Pfalz"
+            ],
+            "geo_krs": [
+                "leipzig"
+            ]
+        },
+        "foilid": "eec16dd4-cd9e-4c2d-b8f4-c0e868f311a2",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 6,
+        "foilprice": 473.0,
+        "factprice": 827.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1974.0
+            ],
+            "obj_livingSpace": [
+                220.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                2.0
+            ],
+            "obj_lotArea": [
+                683.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "multi_family_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "rheingau_taunus_kreis"
+            ]
+        },
+        "factid": "e32e752d15d92318a7e5de1f5ff8005f",
+        "foil": {
+            "obj_yearConstructed": [
+                1975.0
+            ],
+            "obj_livingSpace": [
+                210.0
+            ],
+            "obj_noRooms": [
+                5.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                870.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "semidetached_house"
+            ],
+            "obj_cellar": [
+                "y"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "normal"
+            ],
+            "obj_heatingType": [
+                "wood_pellet_heating"
+            ],
+            "obj_regio1": [
+                "Hessen"
+            ],
+            "geo_krs": [
+                "k\u00f6ln"
+            ]
+        },
+        "foilid": "23b1110a-13ce-4119-a1aa-92f47736a619",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 6,
+        "fact_cl": 4,
+        "foilprice": 823.0,
+        "factprice": 488.0
+    },
+    {
+        "fact": {
+            "obj_yearConstructed": [
+                1996.0
+            ],
+            "obj_livingSpace": [
+                145.0
+            ],
+            "obj_noRooms": [
+                6.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                253.0
+            ],
+            "obj_noParkSpaces": [
+                1.0
+            ],
+            "obj_buildingType": [
+                "end_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Bayern"
+            ],
+            "geo_krs": [
+                "passau_kreis"
+            ]
+        },
+        "factid": "a846eb75aa817234ac5d9407b478baad",
+        "foil": {
+            "obj_yearConstructed": [
+                1990.0
+            ],
+            "obj_livingSpace": [
+                157.0
+            ],
+            "obj_noRooms": [
+                7.0
+            ],
+            "obj_numberOfFloors": [
+                3.0
+            ],
+            "obj_lotArea": [
+                506.0
+            ],
+            "obj_noParkSpaces": [
+                2.0
+            ],
+            "obj_buildingType": [
+                "end_terrace_house"
+            ],
+            "obj_cellar": [
+                "n"
+            ],
+            "obj_condition": [
+                "well_kept"
+            ],
+            "obj_interiorQual": [
+                "no_information"
+            ],
+            "obj_heatingType": [
+                "central_heating"
+            ],
+            "obj_regio1": [
+                "Baden_W\u00fcrttemberg"
+            ],
+            "geo_krs": [
+                "dahme_spreewald_kreis"
+            ]
+        },
+        "foilid": "6e44e24d-43e3-418a-b942-ffd6c6dd8d9f",
+        "history": "None",
+        "conf": "generations=3000",
+        "predclass": 4,
+        "fact_cl": 2,
+        "foilprice": 455.0,
+        "factprice": 171.0
+    }
+]
