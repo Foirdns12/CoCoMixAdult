@@ -1,0 +1,16 @@
+tensorflow==2.1.0
+scikit-learn==0.23.2
+pandas
+numpy
+statsmodels==0.11.1
+matplotlib
+seaborn
+jupyter
+notebook
+xlrd==1.2.0
+nevergrad
+pytest
+openpyxl
+torch
+scikit-image
+tqdm
