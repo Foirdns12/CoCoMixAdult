@@ -96,7 +96,6 @@ def Tab_distance(x, y):
 
 for data in record:
     if data["conf"] != "fake" and data["conf"] == "generations=3000":
-        #if data['Wachter']==False:
         #set = []
         #set.append((data['fact'], data['foil'], np.array(data['history']["pdf"]), 4, 6))
         #analysis = analyze_foils(set, measures)

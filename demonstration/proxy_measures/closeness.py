@@ -3,7 +3,7 @@ from typing import Any, Callable, Dict, List, Optional
 import numpy as np
 
 from demonstration.demonstration_data import ALL_CATEGORICAL_VALUES, CATEGORICAL, NUMERICAL, load_df
-from demonstration.transition_matrices.compute_distance_matrices import compute_distance_matrix
+from demonstration.transition_matrices.compute_distance_matrices_adult import compute_distance_matrix
 from demonstration.transition_matrices.final_matrices import load_distance_matrices
 from demonstration.transition_matrices.unit_matrices import get_unit_distance_matrices, get_unit_transition_matrices
 import pandas as pd
@@ -38,8 +38,6 @@ def _categorical_distance(distance_matrices: Dict[str, np.ndarray]) \
         -> Callable[[Dict[str, Any], Dict[str, Any], float], float]:
     def compute_distance(fact: Dict[str, Any], foil: Dict[str, Any], beta: float = 0.5) -> float:
         distances = []
-        #geo = get_unit_transition_matrices()["geo_krs"]
-        #distance_matrices["geo_krs"] = compute_distance_matrix(geo, True)
 
         for feature, values in ALL_CATEGORICAL_VALUES.items():
             dist = distance_matrices[feature]

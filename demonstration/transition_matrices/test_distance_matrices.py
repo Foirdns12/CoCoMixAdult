@@ -1,6 +1,6 @@
 import numpy as np
 
-from demonstration.transition_matrices.compute_distance_matrices import compute_distance_matrix
+from demonstration.transition_matrices.compute_distance_matrices_adult import compute_distance_matrix
 
 
 def test_compute_for_unit_matrix():

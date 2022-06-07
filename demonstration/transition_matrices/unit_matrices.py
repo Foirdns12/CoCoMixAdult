@@ -1,7 +1,7 @@
 import numpy as np
 
 from demonstration.demonstration_data import ALL_CATEGORICAL_VALUES
-from demonstration.transition_matrices.compute_distance_matrices import compute_distance_matrix
+from demonstration.transition_matrices.compute_distance_matrices_adult import compute_distance_matrix
 
 
 def get_unit_transition_matrices(norm=True):
