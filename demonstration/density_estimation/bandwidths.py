@@ -1,6 +1,6 @@
 #import the final bandwidths of the use case
 from demonstration.demonstration_data import FEATURES, VAR_TYPES
-from demonstration.density_estimation.bandwidths_adult import FINAL_BANDWIDTHS, final_bandwidths
+from demonstration.density_estimation.bandwidths_adult import final_bandwidths
 
 
 if __name__ == "__main__":

@@ -20,7 +20,6 @@ def compute_distance_matrix(transition_matrix: np.ndarray,unit=False) -> np.ndar
     if unit:
         distm=distm*((len(distm))/25)
         np.fill_diagonal(distm, 1.0)
-    #print(distm)
     return distm
 
 
@@ -47,8 +46,7 @@ if __name__ == "__main__":
     distance_matrices = {}
     reflength = 0
     for i in ALL_CATEGORICAL_VALUES:
-        if i != "geo_krs":
-            reflength = np.maximum(reflength, len(i))
+        reflength = np.maximum(reflength, len(i))
 
     for feature, transition_matrix in transition_matrices.items():
         distance_matrix = compute_distance_matrix(transition_matrix)
@@ -60,5 +58,5 @@ if __name__ == "__main__":
 
     print(distance_matrices)
 
-    with open(os.path.join(PATH, "final_distance_matrices.pickle"), "wb") as f:
+    with open(os.path.join(PATH, "final_distance_matrices_adult.pickle"), "wb") as f:
         pickle.dump(distance_matrices, f)

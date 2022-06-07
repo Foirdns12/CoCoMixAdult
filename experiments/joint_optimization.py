@@ -10,13 +10,13 @@ EPSILON = 1e-6
 
 X, _, _ = load_data()
 
-#print(FEATURES)
+
 var_types = np.array(["c", "u", "o", "u", "u", "u", "c", "c"])
 assert len(var_types) == len(FEATURES)
 
 categorical_values = [VALUES[feature] + ["?"] for idx, feature in enumerate(FEATURES)
                       if var_types[idx] != "c"]
-#print(np.var(VALUES[3]))
+
 
 
 # taken from reduced-density experiments
@@ -88,20 +88,16 @@ marital_status.value = fact[3]
 occupation = ng.p.Choice(VALUES["occupation"] + ["?"])
 occupation.value = fact[4]
 
-#sex = ng.p.Choice(VALUES["sex"] + ["?"])
-#sex.value = fact[5]
-
 capital_gain = ng.p.Scalar(fact[6])
-capital_gain.set_mutation(sigma=(STD[6]**0.8)*0.3) #anpassung von exponent fuehrt zu warnings und dividebyzero warnings
+capital_gain.set_mutation(sigma=(STD[6]**0.8)*0.3)
 print((STD[6]**0.8)*0.3)
 print((STD[7]**0.8)*0.3)
 capital_gain.set_bounds(-100000, 100000, method="constraint")
-#capital_gain.set_integer_casting()#, "Scalar{int}[recombination=average,sigma=Log{exp=50}[recombination=average,sigma=50]]"
 
-hours_per_week = ng.p.Scalar(fact[7])#.affined(100,-10).bounded(-10000,10000)
+hours_per_week = ng.p.Scalar(fact[7])
 hours_per_week.set_bounds(10, 100, method="constraint")
 hours_per_week.set_mutation(sigma=(STD[7]**0.8)*0.3)
-hours_per_week.set_integer_casting()#, "Scalar{int}[recombination=average,sigma=Log{exp=1.2}[recombination=average,sigma=1.0]]"
+hours_per_week.set_integer_casting()
 
 # We vary everything except the sex
 instru = ng.p.Instrumentation(age, workclass, education, marital_status, occupation, fact[5], capital_gain, hours_per_week)

@@ -3,9 +3,7 @@ from lib.kde import initialize_pdf
 from data.reduced_adult import load_data, FEATURES, VALUES, load_test
 import numpy as np
 import math
-#df = pd.ExcelFile("C:/Users/phili/Desktop/MA/Datensatz/Immobereinigtv2.xlsx").parse(0)
 
-#df = df.drop(columns=["obj_firingTypes","obj_picturecount","obj_telekomDownloadSpeed","ga_cd_via","obj_courtage","obj_telekomUploadSpeed","obj_zipCode","obj_telekomDownloadSpeed","obj_telekomInternet","obj_numberOfFloors","obj_lastRefurbish"])
 
 X, _,_ = load_data()
 

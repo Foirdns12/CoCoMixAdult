@@ -9,10 +9,10 @@ import pandas as pd
 from demonstration.cocomix.cocomix import make_decision_function
 from demonstration.demonstration_data import FEATURES, VAR_TYPES, \
     ALL_CATEGORICAL_VALUES
-from demonstration.density_estimation.bandwidths import FINAL_BANDWIDTHS
+from demonstration.density_estimation.bandwidths_adult import FINAL_BANDWIDTHS
 from demonstration.density_estimation.compute_kde import kde, preprocess
 from demonstration.proxy_measures.analyze import analyze_foils, instantiate_all_measures
-from demonstration.transition_matrices.compute_distance_matrices_adult import compute_distance_matrix
+from demonstration.transition_matrices.compute_distance_matrices import compute_distance_matrix
 from demonstration.transition_matrices.unit_matrices import get_subspace_unit_transition_matrix
 from lib.optimizer.optimizer import Optimizer
 from lib.optimizer.parametrization import Constant, Scalar, Categorical, Parametrization

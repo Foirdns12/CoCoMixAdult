@@ -27,7 +27,6 @@ assert kernel_value[idx].shape == (2,)
 
 kernel_value[idx] = (idx * (1 - h))[idx]
 print("kernel_value", kernel_value)
-#über anzahl feautres von kreis ausreichnen wann gleich sit
 
 # Kernel value where categorical value is different
 num_values = len(np.unique(Xi))

@@ -43,9 +43,8 @@ if __name__ == '__main__':
                                                        pdf=kde.pdf,
                                                        features=FEATURES,
                                                        var_types=VAR_TYPES,
-                                                       num_processes=6,
-                                                       categorical_values=categorical_values,
-                                                       exclude=["geo_krs"])
+                                                       num_processes=2,
+                                                       categorical_values=categorical_values)
 
-    with open(os.path.join(PATH, "raw_transition_matrices.pickle"), "wb") as f:
+    with open(os.path.join(PATH, "raw_transition_matrices_adult.pickle"), "wb") as f:
         pickle.dump(transition_matrices, f)

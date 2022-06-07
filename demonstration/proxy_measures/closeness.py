@@ -7,7 +7,7 @@ from demonstration.transition_matrices.compute_distance_matrices import compute_
 from demonstration.transition_matrices.final_matrices import load_distance_matrices
 from demonstration.transition_matrices.unit_matrices import get_unit_distance_matrices, get_unit_transition_matrices
 import pandas as pd
-from demonstration.demonstration_immo_data import FEATURES, VAR_TYPES
+
 EPSILON = 1e-12
 
 

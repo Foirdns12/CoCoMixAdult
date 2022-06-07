@@ -3,7 +3,7 @@ import numpy as np
 def likelipath(transmatrix):
     for i in range(0, len(transmatrix)):
         transmatrix[i][i] = 0
-    return likelipath2(transmatrix,transmatrix) #hier kann auch noch die Whrscheinlichkeit in distanzen umgerechnet werden
+    return likelipath2(transmatrix,transmatrix)
 
 
 

@@ -2,7 +2,7 @@ import datetime
 import os
 import numpy as np
 
-from demonstration.competing_approaches.wachter.util import calculate_mad
+from demonstration.wachter_util import calculate_mad
 from models.adult_rf import df_train,df_test
 from demonstration.demonstration_data import load_df, fill_numerical_column_by_cond_median, FEATURES, VAR_TYPES
 from demonstration.cocomix.compute_foil_adult import calculate_foils
@@ -30,8 +30,8 @@ distance_matrices = load_distance_matrices()
 
 configuration= {
     "lambda_": 120.0,
-    "mu": 1.25,
-    "alpha": 3.0,
+    "mu": 1,
+    "alpha": 15.0,
     "beta": 0.5,
     "budget": 1000,
     "densitycut": 8,

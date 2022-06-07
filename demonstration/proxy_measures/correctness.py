@@ -3,9 +3,8 @@ from typing import Dict, Any, Callable
 import numpy as np
 import pandas as pd
 from tensorflow.keras.models import Model
-from model_instances import immo_model, adult_model
+from model_instances import adult_model
 
-#model = immo_model.load_model(code="20210222-161559")
 model = adult_model.load_model()
 
 def equal(a, b):
@@ -28,16 +27,6 @@ def make_correctness(model: Model, preprocess: Callable[[Dict[str, Any]], Any],
         return int(comparison(fact_class, foil_class))
 
     return correctness
-
-def immo_correctness(fact: Dict[str, Any], foil: Dict[str, Any], **_: Any) -> int:
-    p_fact = {k: np.array([v]) for k,v in fact.items()}
-    fact_class=np.argmax(model.predict(p_fact)[0])
-    p_foil = {k: np.array([v]) for k,v in foil.items()}
-    foil_class=np.argmax(model.predict(p_foil)[0])
-    return_val=0
-    if abs(fact_class - foil_class) == 2:
-        return_val=1
-    return return_val
 
 
 def adult_correctness(fact: Dict[str, Any], foil: Dict[str, Any], **_: Any) -> int:
