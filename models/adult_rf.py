@@ -1,10 +1,8 @@
 import os
-import datetime
 import pandas as pd
 
-from data.adult import  NUMERICAL
+from data.adult import  NUMERICAL, CATEGORICAL
 from demonstration.demonstration_data import  load_data
-from model_instances.adult_model import load_model
 
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
@@ -15,6 +13,7 @@ from sklearn.impute import SimpleImputer
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 
+#Random Forest with Accuracy 82,02%
 
 # Importing dataset
 df_train_tuple = load_data(train=True)
@@ -50,6 +49,7 @@ numeric_transformer = Pipeline(
     steps=[("imputer", SimpleImputer(strategy="median")), ("scaler", StandardScaler())]
 )
 
+
 categorical_features = ["workclass",
 "education",
 "marital-status",
@@ -81,11 +81,8 @@ Y_pred = model.predict(X_test)
 #print('Accuracy score:',round(accuracy_score(Y_test, Y_pred) * 100, 2))#
 #print('F1 score:',round(f1_score(Y_test, Y_pred) * 100, 2))
 
-cm = print(confusion_matrix(Y_test, Y_pred))
+#cm = print(confusion_matrix(Y_test, Y_pred))
 
-
-current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-log_dir = os.path.join(PATH, "logs", current_time)
 
 #joblib.dump(model, "../model_instances/adult_rf.joblib")
 

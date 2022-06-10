@@ -4,10 +4,9 @@ import numpy as np
 
 from demonstration.wachter_util import calculate_mad
 from models.adult_rf import df_train,df_test
-from demonstration.demonstration_data import load_df, fill_numerical_column_by_cond_median, FEATURES, VAR_TYPES
+from demonstration.demonstration_data import FEATURES, VAR_TYPES
 from demonstration.cocomix.compute_foil_adult import calculate_foils
 from demonstration.transition_matrices.final_matrices import load_transition_matrices, load_distance_matrices
-from demonstration.transition_matrices.unit_matrices import get_unit_distance_matrices, get_unit_transition_matrices
 from model_instances import adult_model
 
 PATH = os.path.dirname(os.path.abspath(__file__))
@@ -57,9 +56,9 @@ if __name__ == "__main__":
 
     rand=60
 
-    for i in range(3):
-        result, foilset = calculate_foils(configuration,mad,df_test,model,transition_matrices,distance_matrices,df_train,n=rand,factset=None,randomstate=10,metrics=True,boundaries=True)
-        current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-        fnamejsn = f"{current_time+str(rand)}_foilshs_cocomix.json"
-        with open(os.path.join(PATH,'plots/datenstudie',fnamejsn), "wt") as f:
-            json.dump(foilset, f, indent=4, cls=NpEncoder)
+
+    result, foilset = calculate_foils(configuration,mad,df_test,model,transition_matrices,distance_matrices,df_train,n=2,factset=None,randomstate=rand,metrics=True,boundaries=True)
+    current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    fnamejsn = f"{current_time+str(rand)}_foilshs_cocomix.json"
+    with open(os.path.join(PATH,'generated_foils',fnamejsn), "wt") as f:
+        json.dump(foilset, f, indent=4, cls=NpEncoder)

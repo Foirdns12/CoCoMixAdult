@@ -12,7 +12,6 @@ for feature, values in ALL_CATEGORICAL_VALUES.items():
      for row, value in zip(transition_matrices[feature], values):
             print(value, row)
 
-# Prevent transition to "no_information"
 
 for feature, values in ALL_CATEGORICAL_VALUES.items():
     if feature not in transition_matrices:

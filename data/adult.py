@@ -3,9 +3,6 @@ import os
 import numpy as np
 import pandas as pd
 
-
-#__all__ = ["load_data", "load_test", "FEATURES", "CATEGORICAL", "VALUES", "COLUMNS"]
-
 PATH = os.path.dirname(os.path.abspath(__file__))
 
 FEATURES = [
@@ -22,7 +19,6 @@ FEATURES = [
 "sex",
 "native-country"]
 
-
 VAR_TYPES = [
     'c',
     'c',
@@ -36,8 +32,6 @@ VAR_TYPES = [
     'u',
     'u',
     'u']
-
-
 
 VALUES = {
     "workclass": ["Private", "Self-emp-not-inc", "Self-emp-inc", "Federal-gov", "Local-gov", "State-gov", "Without-pay",
@@ -85,8 +79,7 @@ CATEGORICAL = ["workclass",
 "race",
 "sex",
 "native-country",
-"label",
-"factID"]
+"label"]
 
 NUMERICAL = ["age",
 "fnlwgt",
@@ -94,8 +87,6 @@ NUMERICAL = ["age",
 "hours-per-week"]
 
 ALL = NUMERICAL + CATEGORICAL
-
-
 
 def load_df(columns=None, fillna="mean"):
     """
@@ -107,9 +98,8 @@ def load_df(columns=None, fillna="mean"):
 
     df = pd.read_csv(os.path.join(PATH, "adultdata", "adult.txt"), sep=",",header=None)
     df.columns = COLUMNS + ["label"]
-    df['factID'] = np.arange(len(df))
-    df['factID'] = df['factID'].apply(str)
-    df = df[["age","fnlwgt","education-num","capital-gain","capital-loss","hours-per-week","workclass","education","marital-status","occupation","relationship","race","sex", "native-country","label","factID"]]
+    df = df[["age","fnlwgt","education-num","capital-gain","capital-loss","hours-per-week","workclass","education","marital-status","occupation","relationship","race","sex", "native-country","label"]]
+
     df= df.drop(columns=["capital-gain","capital-loss"])
 
     for column in df:
@@ -172,8 +162,7 @@ def load_data(features=FEATURES, target="label", fillna="mean"):
     df = load_df(fillna=fillna)
 
     targets = df[target].values.ravel()
-
-    dfx = df.drop(columns=[target, "factID"])
+    dfx = df.drop(columns=[target])
     assert np.all([col in dfx.columns for col in features])
     samples = dfx.to_numpy()
 

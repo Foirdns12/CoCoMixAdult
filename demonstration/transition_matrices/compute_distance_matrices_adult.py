@@ -20,7 +20,7 @@ def compute_distance_matrix(transition_matrix: np.ndarray,unit=False) -> np.ndar
     if unit:
         distm=distm*((len(distm))/25)
         np.fill_diagonal(distm, 1.0)
-    #print(distm)
+
     return distm
 
 

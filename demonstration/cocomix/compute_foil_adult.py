@@ -21,33 +21,7 @@ PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 def pdf(sample):
-    # print(sample)
     return kde.pdf(preprocess(sample.reshape(1, -1)))
-
-
-buckets = [None, 100, 150, 200, 350, 600, 800, 1000, None]
-factor = 1.1
-
-
-def pricecalc(predclass, predvect):
-    if predclass == 0:
-        price = np.around((1.125 - predvect[0]) * 100, 0)
-    elif predclass == 7:
-        price = np.around(((0.875 + predvect[7]) ** 2) * 1000, 0)
-    else:
-        try:
-            price = _calculate_price(factor, predclass, predvect, buckets[predclass], buckets[predclass + 1])
-        except IndexError:
-            raise ValueError(f"predclass {predclass} is out of range.")
-    return price
-
-
-def _calculate_price(factor, predclass, predvect, lower, upper):
-    return np.around((predvect[predclass - 1] ** factor / (
-            predvect[predclass - 1] + predvect[predclass + 1]) ** factor) * lower + (
-                             predvect[predclass + 1] ** factor / (
-                             predvect[predclass - 1] + predvect[predclass + 1]) ** factor) * upper, 0)
-
 
 def get_losses(history, step: Union[int, str] = "last"):
     if step == "last":
@@ -203,12 +177,9 @@ def calculate_foils(configuration, mad, df_test, model, transition_matrices, dis
 
         predclass = get_losses(history, "last")["predicted_class"]
         predvect = get_losses(history, "last")["prediction"]
-        price = 0
-        factprice = 0
         id = uuid.uuid4()
-        #aenderungen
-        return ((fact_for_analysis, foil_for_analysis, history, price, configuration, str(id), predclass, fact_cl,
-                 factprice,"0"))
+        return ((fact_for_analysis, foil_for_analysis, history, configuration, str(id), predclass, fact_cl,
+                "0"))
 
     if factset is not None and randomstate > 0:
         print('Randomstate and n omitted as foilset is given')
@@ -220,9 +191,9 @@ def calculate_foils(configuration, mad, df_test, model, transition_matrices, dis
     # print(df_test['factID'])
     if factset is None:
         if randomstate > 0:
-            samples = df_train.sample(n=n, random_state=randomstate)
+            samples = df_test.sample(n=n, random_state=randomstate)
         else:
-            samples = df_train.sample(n=n)
+            samples = df_test.sample(n=n)
         # print(sample)
         for i in range(n):
             sample = samples.iloc[[i]]
@@ -233,7 +204,7 @@ def calculate_foils(configuration, mad, df_test, model, transition_matrices, dis
             print('fakt')
             print(fact)
             if len(fact['factID']) > 1:
-                print('identical observation found in test set')  # passt das?
+                print('identical observation found in test set')
             if len(fact['factID']) < 1:
                 print('factID not found in test set')
             record.append(calc(fact))
@@ -241,12 +212,12 @@ def calculate_foils(configuration, mad, df_test, model, transition_matrices, dis
     result = {}
     import json
     conf = json.dumps(configuration)
-    full_set = [(fact, foil, np.array(history["pdf"]), int(predclass), int(fact_cl)) for fact, foil, history, _, _, _, predclass, fact_cl, _,_ in record]
+    full_set = [(fact, foil, np.array(history["pdf"]), int(predclass), int(fact_cl)) for fact, foil, history, _, _, predclass, fact_cl, _ in record]
 
     full_set2 = []
-    for fact, foil, history, price, _, foilid, predclass, fact_cl, factprice, factid in record:
+    for fact, foil, history, _, foilid, predclass, fact_cl, factid in record:
         first = {'fact': fact, 'factid': factid, 'foil': foil, 'foilid': foilid, 'history': history, 'conf': conf,
-                 'predclass': predclass, 'fact_cl': fact_cl, 'foilprice': price, 'factprice': factprice}
+                 'predclass': predclass, 'fact_cl': fact_cl}
         full_set2.append(first)
 
     result['record'] = record

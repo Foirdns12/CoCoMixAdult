@@ -8,7 +8,18 @@ from data.adult import load_data, FEATURES, VALUES
 
 sns.set()
 print(FEATURES)
-var_type = np.array(["c", "u", "o", "c", "u", "u", "u", "u", "u", "c", "c", "c", "u"])
+var_type = np.array([ 'c',
+    'c',
+    'c',
+    'c',
+    'u',
+    'o',
+    'u',
+    'u',
+    'u',
+    'u',
+    'u',
+    'u'])
 assert len(var_type) == len(FEATURES)
 for type_, feature in zip(var_type, FEATURES):
     print(type_, feature)

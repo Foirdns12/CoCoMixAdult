@@ -37,13 +37,10 @@ def make_decision_function(fact: np.ndarray,
     :param beta: The pre-factor and constant of the categorical distance loss.
     :return:
     """
-    #aenderungen
     p_fact = {feature: np.array([value]) for feature, value in zip(input_features, fact)}
-    #p_fact = pd.DataFrame(fact)
 
     p_fact = pd.DataFrame.from_dict(p_fact)
     fact_prediction = model.predict(p_fact)[0]
-    #num_classes =
     num_classes = 2
     target = np.zeros(num_classes)
     target[target_class] = 1.0
@@ -68,8 +65,6 @@ def make_decision_function(fact: np.ndarray,
         return 1 / (EPSILON + dist[idx1][idx2])
 
     def decision_function(*args: Union[str, int, float], print_: bool = False) -> Tuple[float, Dict[str, float]]:
-        # prediction loss
-        #aenderungen
         p_sample = {feature: np.array([value]) for feature, value in zip(input_features, args)}
         p_sample = pd.DataFrame.from_dict(p_sample)
         _prediction = model.predict_proba(p_sample)[0]

@@ -54,8 +54,7 @@ def initialize_kde(data, var_types, categorical_values, bw,
 
 def _create_preprocessor(data, var_type_str, categorical_values="auto", _scale_numerical_columns=True,
                          categorical_encoder="ordinal"):
-    print(var_type_str)
-    print(categorical_values)
+
     if data.shape[1] != len(var_type_str):
         raise ValueError("Expect data in shape (n_samples, n_features)")
 
