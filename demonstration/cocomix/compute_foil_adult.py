@@ -35,7 +35,7 @@ def get_losses(history, step: Union[int, str] = "last"):
 
 
 
-def conf_parametrization_use_case(fact_sample, df_train, transition_matrices, distance_matrices,boundaries):
+def conf_parametrization_use_case(fact_sample, df_train, transition_matrices, boundaries):
     # final configuration step. In this case the configuration/characteristics for the features which are used for the optimization
 
     fact = fact_sample[FEATURES].to_numpy()[0]
@@ -99,12 +99,6 @@ def conf_parametrization_use_case(fact_sample, df_train, transition_matrices, di
     return age, fnlwgt, educationnum, hoursperweek, workclass, education, maritalstatus, occupation, relationship, race, sex, nativecountry
 
 
-def use_case_adjustments(transition_matrices, distance_matrices, fact_sample):
-    fact = fact_sample[FEATURES].to_numpy()[0]
-    categorical_values = ALL_CATEGORICAL_VALUES.copy()
-
-    return categorical_values
-
 def p_fact_adult (p_fact):
     p_fact = pd.DataFrame.from_dict(p_fact)
     return p_fact
@@ -121,7 +115,6 @@ def find_foil(model, transition_matrices, distance_matrices, mad, df_train, df_t
     print("\n\nThe fact", p_fact)
     print('#########')
     print(p_fact)
-    #Zusatz für Adult Data Frame
     p_fact = p_fact_adult(p_fact)
     prediction = model.predict_proba(p_fact)[0]
     fact_class = np.argmax(prediction)

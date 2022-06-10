@@ -53,15 +53,10 @@ assert np.all([feature in ALL_CATEGORICAL_VALUES for feature in FEATURES if feat
 
 def load_df(train=True,WithID=False):
     if WithID:
-       # _df=adult.load_df(columns=FEATURES + [TARGET]+ ['factID'], fillna=False)
         _df=adult.load_df(columns=FEATURES + [TARGET], fillna=False)
-
         _samples = _df[FEATURES]
-       #        _samples = _df[FEATURES+['factID']]
-
         _targets = _df[TARGET]
         samples, targets = _split_data(_samples, _targets, train)
-       # df = pd.DataFrame(samples, columns=FEATURES+['factID'])
         df = pd.DataFrame(samples, columns=FEATURES)
 
         df[TARGET] = targets

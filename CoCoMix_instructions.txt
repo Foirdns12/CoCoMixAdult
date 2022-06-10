@@ -1,13 +1,16 @@
-Anmerkung: oft sehr use case spezifische Methoden. Daher teils schwer zu sehen, was genau Allgemeingültigkeit besitzt und was nicht.
 
-Brief instructions using CoCoMix on a data set:
+Brief instructions using CoCoMix on a data set (here: adult data frame)
 
 
-1.reading in data: (path in example: data->immo.py)
+1.reading in data: (path in example: data->adult.py)
+UCI adult data set is available at: https://archive.ics.uci.edu/ml/datasets/adult
 
 PATH: Path of file
-CATEGORICAL/NUMERICAL: Array with the categorical & numeric features
-_DROP: Writing down features to drop
+FEATURES: List of feature variables for the model/explanations
+VAR_TYPES: List of variable type per variable (c,u,o)
+COLUMNS: List of columns of the data set
+CATEGORICAL/NUMERICAL: Lists of the categorical & numeric features
+(_DROP: Writing down features to drop)
 
 -load_df(columns=None, fillna="mean"):
 param columns: List of columns to keep
@@ -22,134 +25,57 @@ return: Samples as np.ndarray of size (n_samples, n_features),
              Targets as np.ndarray of size (n_samples,)
     
 
-2.demonstration_data for preparing data:
--import df
- (path in example:demonstration -> demonstration_data.py)
-FEATURES: features 
-VAR_TYPES: variable types of features
-TARGET: target feature
+2.demonstration_adult_data for preparing data:
+All data used in the demonstration is loaded through this module
+to ensure consistency in the features, their type, and their order.
+TARGET = Target variable
 UNORDERED_CATEGORICAL_VALUES: unordererd categorical features and their values
 ORDERED_CATEGORICAL_VALUES: ordered categorical features and their values
 RANDOM STATE: to anchor sample
-TRAIN_SIZE: relative share of training data in total data [0;1] for splitting data in training- & test data set 
+TRAIN_SIZE: relative share of training data in total data [0;1] for splitting data in training- & test data set
 
-Model: AI Model for the data set
-example on a data set with properties and their features to predict the price:
+3. demonstration_data:
+here the prepared data of the respective Use Case, which one would like to work on (here: demonstration_adult_data) are handed over
+import data from adult / demonstration_adult_data and fit some configurations
 
-demonstration_model AI model as foundation for CoCoMix:
-TARGET:  target feature
--prepare_data(drop_targes=True) final data preparation.
+####Model####
 
-case specific methods:
--fill_nan_with_median(df, source_df):
--fill_nan_with_quantile_median(df):
-Replace NaNs in numeric columns with quantile median
--_fill_nan?
--def df_to_dataset(dataframe, shuffle=True, batch_size=64, target="obj_PurchasePrice"):
-convert data frame to data set
--build_model(feature_layer, num_classes, layer_conf)
--train_model(layer_conf=None)
--create_model(target="target", layer_conf=None)
--create_feature_columns(target, train, cross=None)
--load_model(code="20201214-133037")
--load_model_from_weights(code="20201214-133037", layer_conf=((0.0, 256), (0.1, 256)))
-
+Model: AI Model for the data set (here: adult_rf)
+save the model
 
 ####DENSITY ESTIMATION###
-
-
 Estimating bandwidths:
 
--estimate_numerical_bandwidths.py for deciding bw for numerical variables
+-estimate_numerical_bandwidths_adult.py for deciding bw for numerical variables
 try out different bw's and create a plot to select best fitting bandwidth
-example in here with 6 numeric features:
-if __name__ == "__main__":
-    _plot_ranges = {
-        "obj_yearConstructed": [1860, 2023],
-        "obj_livingSpace": [0, 1000],
-        "obj_noRooms": [0, 20],
-        "obj_numberOfFloors": [0, 6],
-        "obj_lotArea": [0, 2000],
-        "obj_noParkSpaces": [0, 10]
-    }
-
-    _bandwidths = {
-        "obj_yearConstructed": [1.0, 2.0, 3.0, 4.0],
-        "obj_livingSpace": [2.5, 5.0, 7.5, 10.0],
-        "obj_noRooms": [0.5, 0.7, 0.8, 1.0],
-        "obj_numberOfFloors": [0.3, 0.5, 0.7, 1.0],
-        "obj_lotArea": [20.0, 30.0, 40.0, 50.0],
-        "obj_noParkSpaces": [0.2, 0.3, 0.5, 1.0, ]
-    }
-
 
 
 -estimate_categorial_bandwidths.py for deciding bw for categorical variables
 try out different bw's and create a plot to select best fitting bandwidth:
-example:
-if __name__ == "__main__":
-    _bandwidths = {
-        "u": [0.0, 0.01, 0.1, 0.5, 0.95, 1.0],
-        "o": [0.0, 0.1, 0.15, 0.2, 0.3]
-    }
 
 
 finally,
-bandwidths.py for PDF: (path in demonstration->density_estimation->bandwidths.py)
-FINAL_BANDWIDTHS: writing down the bandwidths of categorial variables
+bandwidths_adult.py for PDF:
+FINAL_BANDWIDTHS: writing down the bandwidths of categorical variables
+
+####transition_matrices####
+
+configurations like alpha/mu/lambda/beta
+
+####compute foils###
+compute_foil_adult
+this file is there for final use case configurations with methods to find the foils for the adult data frame with the CoCoMix algorithm
+
+conf_parametrization_use_case(fact_sample, df_train, transition_matrices, boundaries):
+numeric variables to Scalar with bw's & boundaries.
+Categorical variables with transition matrices
+
+compute_adult_cocomix
+finale file to calculate foils out of the test sample & save those
+prepare data (import df_train & df_test)
+load model and matrices
+set configurations
 
 
+Besides the example there are many more methods/variations for use case specifications
 
-
-proxy_measures
-approximations including sparsity,correctness,closeness
-
-correctness.py (nicht sicher ob spezifisch)
-model = load_model(model) to hand over the used model
-
-
-
-####compute foil###
-
-this file is there for computing the foils with the CoCoMix algorithm
-
-Data preparation:
-load train and test data set
-
-function for the specific case that fills NaN's with median values of every class
--fill_numerical_column_by_cond_median(source_df, condition_column, target_df, target_columns)
-
-Load remaining files (f.ex. model used for tha data frame)
-
-case specific:
-calculating price of Foil
--def pricecalc(predclass, predvect):
-
-
-
- find the foils
-
--find_foil(fact_sample, lambda_=100.0, mu=1.0, alpha=50.0, beta=0.1, budget=1000,
-              densitycut=10, densityaddloss=1.0, densityscaler=0.05):
-:param fact_sample: sample of the facts one wants to calcute foils for
-:param lambda: parameter for finding optimal foil (default = 100)?
-:param mu: parameter for finding optimal foil (default = 1)
-:param alpha:parameter for finding optimal foil (default = 50)
-:param beta:parameterto control the balance between the diagonal and off-diagonal elements, between (0,1] (default(0.1))
-:param budget: number of optimization steps (default = 1000)
-:param densitycut:smoothing parameter for the elaboration of distances (default = 10)
-:param densityaddloss:
-:param densityscaler:parameter to ensure comparability in case of large differences in the order of 
-magnitude of the density (default = 0.05)
-
-
-?hier nicht für was diese Deklaration genau steht (line 146 ff.)
-declaration of variables which represent the variables used for CoCoMix to optimize
-example:
-year = Scalar(fact[0])
-    year.sigma = 5  # FINAL_BANDWIDTHS[FEATURES[0]]
-    year.cast_to_integer = True
-
-
-unterer Code ab Line 146 compute_foil2 jetzt mal noch nicht ganz ausgefüllt,
-da extrem case spezifisch ->Meeting am Dienstag.

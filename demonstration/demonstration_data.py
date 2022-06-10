@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 #import processed data
 from data import adult
-from demonstration.demonstration_adult_data import FEATURES,VAR_TYPES,TARGET,UNORDERED_CATEGORICAL_VALUES,ORDERED_CATEGORICAL_VALUES
+from demonstration.demonstration_adult_data import FEATURES,VAR_TYPES,TARGET,UNORDERED_CATEGORICAL_VALUES,ORDERED_CATEGORICAL_VALUES, RANDOM_STATE,TRAIN_SIZE
 
 CATEGORICAL = [feature for feature in FEATURES if feature in adult.CATEGORICAL]
 NUMERICAL = [feature for feature in FEATURES if feature in adult.NUMERICAL]
@@ -66,11 +66,6 @@ def fillna(samples, method="median"):
             samples[:, i] = column
 
     return samples
-
-
-RANDOM_STATE = 323
-TRAIN_SIZE = 0.80
-
 
 def _split_data(_samples, _targets, train):
     if train:

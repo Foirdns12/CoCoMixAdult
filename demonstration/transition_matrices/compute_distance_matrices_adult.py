@@ -47,7 +47,6 @@ if __name__ == "__main__":
     distance_matrices = {}
     reflength = 0
     for i in ALL_CATEGORICAL_VALUES:
-    #    if i != "geo_krs":
         reflength = np.maximum(reflength, len(i))
 
     for feature, transition_matrix in transition_matrices.items():
