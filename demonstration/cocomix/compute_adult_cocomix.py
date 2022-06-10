@@ -57,7 +57,7 @@ if __name__ == "__main__":
     rand=60
 
 
-    result, foilset = calculate_foils(configuration,mad,df_test,model,transition_matrices,distance_matrices,df_train,n=2,factset=None,randomstate=rand,metrics=True,boundaries=True)
+    result, foilset = calculate_foils(configuration,mad,df_test,model,transition_matrices,distance_matrices,df_train,n=20,factset=None,randomstate=rand,metrics=True,boundaries=True)
     current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     fnamejsn = f"{current_time+str(rand)}_foilshs_cocomix.json"
     with open(os.path.join(PATH,'generated_foils',fnamejsn), "wt") as f:

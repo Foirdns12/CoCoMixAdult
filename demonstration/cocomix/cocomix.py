@@ -2,7 +2,6 @@ from typing import List, Callable, Tuple, Union, Dict
 
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 from model_instances import adult_model
 EPSILON = 1e-30
 
@@ -12,7 +11,6 @@ def make_decision_function(fact: np.ndarray,
                            input_features: List[str],
                            var_types: List[str],
                            categorical_values: Dict[str, List[str]],
-                           #model: tf.keras.models.Model,
                            model: model,
                            mad: np.ndarray,
                            pdf: Union[Callable[[np.ndarray], float], None],
@@ -40,7 +38,6 @@ def make_decision_function(fact: np.ndarray,
     p_fact = {feature: np.array([value]) for feature, value in zip(input_features, fact)}
 
     p_fact = pd.DataFrame.from_dict(p_fact)
-    fact_prediction = model.predict(p_fact)[0]
     num_classes = 2
     target = np.zeros(num_classes)
     target[target_class] = 1.0

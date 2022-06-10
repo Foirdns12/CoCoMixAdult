@@ -129,7 +129,7 @@ def find_foil(model, transition_matrices, distance_matrices, mad, df_train, df_t
     categorical_values = ALL_CATEGORICAL_VALUES.copy()
 
     parametrization = Parametrization(
-        *conf_parametrization_use_case(fact_sample, df_train, transition_matrices, distance_matrices,boundaries))
+        *conf_parametrization_use_case(fact_sample, df_train, transition_matrices,boundaries))
 
     optimizer = Optimizer(parametrization, mutation_rule="1/n")
 
@@ -181,7 +181,6 @@ def calculate_foils(configuration, mad, df_test, model, transition_matrices, dis
     if metrics:
         measures = instantiate_all_measures(mad)
     record = []
-    # print(df_test['factID'])
     if factset is None:
         if randomstate > 0:
             samples = df_test.sample(n=n, random_state=randomstate)

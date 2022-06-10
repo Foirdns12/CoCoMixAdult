@@ -1,8 +1,6 @@
 import nevergrad as ng
 from random import random,randrange
 
-#TODO: Mglw anders lösen als mit Rekursion
-
 def startoptimization(decfct,ngvariables,n,parent,maxstep,fixn=True):
     optval=decfct(*list(parent),print=True)
     if fixn:
